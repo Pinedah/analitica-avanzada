@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Proyecto: Analitica Avanzada ----
+
+# macOS
+.DS_Store
+._*
+
+# Datos pesados (>100 MB, exceden el limite de GitHub)
+# Compartir por otro medio (Drive/OneDrive)
+Base_Saeh_Egresos_2008_2024.zip
