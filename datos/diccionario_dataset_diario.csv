@@ -1,0 +1,38 @@
+variable,descripcion
+fecha,Día (2015-01-01 a 2024-12-31)
+pm25_prom,"OBJETIVO PRINCIPAL. PM2.5 promedio de 24 h, promedio de las estaciones (µg/m³)"
+pm25_max_est,PM2.5 promedio de 24 h en la estación más alta del día (µg/m³)
+n_est_pm25,Estaciones con PM2.5 válido ese día
+pm10_prom,"PM10 promedio de 24 h, promedio de estaciones (µg/m³)"
+no2_prom,NO2 promedio de 24 h (ppb)
+co_prom,CO promedio de 24 h (ppm)
+so2_prom,SO2 promedio de 24 h (ppb)
+o3_max1h,OBJETIVO. Máximo horario de ozono en cualquier estación (ppb)
+o3_max1h_prom,"Máximo horario de ozono, promedio de estaciones (ppb)"
+n_est_o3,Estaciones con ozono ese día
+o3_8h_max,Máximo del promedio móvil de 8 h de ozono (ppb)
+tmp_prom,Temperatura promedio (°C)
+tmp_max,"Temperatura máxima (°C), promedio de estaciones"
+tmp_min,"Temperatura mínima (°C), promedio de estaciones"
+amplitud_termica,tmp_max − tmp_min (°C); valores altos se asocian a inversiones térmicas
+rh_prom,Humedad relativa promedio (%)
+wsp_prom,Velocidad del viento promedio (m/s)
+wsp_max,"Velocidad máxima horaria del viento (m/s), promedio de estaciones"
+wsp_madrugada,Velocidad del viento de 01 a 08 h (m/s)
+viento_u,"Componente este-oeste del viento (m/s, positivo = hacia el este)"
+viento_v,"Componente norte-sur del viento (m/s, positivo = hacia el norte)"
+año,Año
+mes,Mes
+dia_semana,Día de la semana (0 = lunes)
+fin_semana,1 si es sábado o domingo
+festivo,1 si es día festivo oficial o jueves/viernes santo
+temporada,"Seca fría (nov-feb), seca caliente (mar-may), lluvias (jun-oct)"
+confinamiento,1 entre el 23 de marzo y el 30 de junio de 2020
+dia_anio_sin,Seno del día del año (estacionalidad)
+dia_anio_cos,Coseno del día del año
+pm25_prom_ayer,PM2.5 del día anterior
+o3_max1h_ayer,Ozono máximo del día anterior
+wsp_prom_ayer,Viento promedio del día anterior
+tmp_max_ayer,Temperatura máxima del día anterior
+excede_pm25,OBJETIVO BINARIO. 1 si alguna estación rebasó 41 µg/m³ de PM2.5 (24 h)
+excede_o3,OBJETIVO BINARIO. 1 si alguna estación rebasó 90 ppb de ozono (1 h)
